@@ -11,3 +11,7 @@ source ~/.zsh_setup/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export EDITOR=vim
+
+HISTFILE=.zhistory
+HISTSIZE=2500
+SAVEHIST=10000

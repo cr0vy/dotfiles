@@ -12,6 +12,6 @@ source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 
 export EDITOR=vim
 
-HISTFILE=.zhistory
+HISTFILE=~/.zhistory
 HISTSIZE=2500
 SAVEHIST=10000

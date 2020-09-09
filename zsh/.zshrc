@@ -15,3 +15,8 @@ export EDITOR=vim
 HISTFILE=~/.zhistory
 HISTSIZE=2500
 SAVEHIST=10000
+
+# Firefox for Wayland
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DBUS_REMOTE=1
+export MOZ_WEBRENDER=1

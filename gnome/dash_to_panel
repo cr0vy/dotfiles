@@ -1,0 +1,21 @@
+[/]
+avatar-style='Circular'
+button-icon-padding=6
+custom-menu-button-icon-size=33.0
+disable-recently-installed-apps=false
+disable-tooltips=false
+distro-icon=3
+dtp-dtd-state=[false, false]
+enable-horizontal-flip=false
+enable-large-icons=false
+enable-sub-menus=false
+extra-categories=[(0, false), (1, false), (2, false), (3, false)]
+menu-button-icon='Distro_Icon'
+menu-height=550
+menu-hotkey='Super_L'
+menu-layout='Tognee'
+menu-width=290
+pinned-app-list=@as []
+right-panel-width=205
+separator-color='rgb(63,62,64)'
+vert-separator=true

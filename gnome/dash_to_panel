@@ -1,4 +1,7 @@
 [/]
+appicon-margin=4
+appicon-padding=4
+available-monitors=[1, 0]
 avatar-style='Circular'
 button-icon-padding=6
 custom-menu-button-icon-size=33.0
@@ -10,12 +13,17 @@ enable-horizontal-flip=false
 enable-large-icons=false
 enable-sub-menus=false
 extra-categories=[(0, false), (1, false), (2, false), (3, false)]
+hotkeys-overlay-combo='TEMPORARILY'
 menu-button-icon='Distro_Icon'
 menu-height=550
 menu-hotkey='Super_L'
 menu-layout='Tognee'
 menu-width=290
+multi-monitors=false
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"1":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-size=45
 pinned-app-list=@as []
+primary-monitor=1
 right-panel-width=205
 separator-color='rgb(63,62,64)'
 vert-separator=true

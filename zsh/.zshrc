@@ -16,6 +16,14 @@ HISTFILE=~/.zhistory
 HISTSIZE=2500
 SAVEHIST=10000
 
+# Load plugins
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Zsh Autosuggest configs
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
+
 # Firefox for Wayland
 export MOZ_ENABLE_WAYLAND=1
 export MOZ_DBUS_REMOTE=1

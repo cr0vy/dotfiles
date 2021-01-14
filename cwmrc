@@ -1,0 +1,45 @@
+sticky true
+
+# Mouse binds
+unbind-mouse all
+bind-mouse C-1 menu-group
+bind-mouse M-1 window-move
+bind-mouse MS-1 window-resize
+bind-mouse C-1 menu-group
+bind-mouse 4-4 group-rcycle
+bind-mouse 5-4 group-cycle
+
+# Keyboard binds
+unbind-key all
+
+bind-key CMS-r restart
+bind-key CMS-q quit
+bind-key CM-l lock
+
+bind-key CM-Return terminal
+bind-key C-m window-fullscreen
+bind-key C-a menu-cmd
+bind-key M-a menu-exec
+bind-key 4-a menu-window
+bind-key 4S-a menu-hidden-window
+
+## Group Control
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+bind-key M-5 group-only-5
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+bind-key MS-5 window-movetogroup-5
+bind-key CS-a group-toggle-all
+
+# Application menu
+## Change later to Firefox
+command "Mozilla Firefox" firefox-esr
+command "KeePassXC" keepassxc
+
+# Ignore drawing borders
+ignore lemonbar

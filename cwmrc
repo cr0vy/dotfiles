@@ -5,7 +5,6 @@ unbind-mouse all
 bind-mouse C-1 menu-group
 bind-mouse M-1 window-move
 bind-mouse MS-1 window-resize
-bind-mouse C-1 menu-group
 bind-mouse 4-4 group-rcycle
 bind-mouse 5-4 group-cycle
 

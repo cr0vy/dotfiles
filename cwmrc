@@ -1,4 +1,5 @@
 sticky true
+gap 16 0 0 0
 
 # Mouse binds
 unbind-mouse all
@@ -14,9 +15,13 @@ unbind-key all
 bind-key CMS-r restart
 bind-key CMS-q quit
 bind-key CM-l lock
+bind-key 4-q window-close
+bind-key M-Tab window-cycle
+bind-key MS-Tab window-rcycle
 
 bind-key CM-Return terminal
 bind-key C-m window-fullscreen
+bind-key CM-m window-maximize
 bind-key C-a menu-cmd
 bind-key M-a menu-exec
 bind-key 4-a menu-window
@@ -33,7 +38,12 @@ bind-key MS-2 window-movetogroup-2
 bind-key MS-3 window-movetogroup-3
 bind-key MS-4 window-movetogroup-4
 bind-key MS-5 window-movetogroup-5
-bind-key CS-a group-toggle-all
+
+# Window control
+bind-key CS-h window-snap-up-left
+bind-key CS-j window-snap-down-left
+bind-key CS-k window-snap-up-right
+bind-key CS-l window-snap-down-right
 
 # Application menu
 ## Change later to Firefox

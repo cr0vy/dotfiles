@@ -1,0 +1,13 @@
+prog Firefox firefox firefox
+prog Terminal terminal xfce4-terminal
+separator
+menufile Audio applications-accessories-symbolic menus/audio
+menufile Internet applications-internet-symbolic menus/internet
+menufile Office applications-office-symbolic menus/office
+menufile Programming applications-editors-symbolic menus/programming
+menufile "Sound & Video" applications-accessories-symbolic menus/sound_video
+menufile System applications-system-symbolic menus/system
+menufile Utilities applications-utilities-symbolic menus/utilities
+menufile Video applications-video-symbolic menus/video
+separator
+menufile Places folder menus/places

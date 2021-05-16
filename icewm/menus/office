@@ -1,0 +1,4 @@
+prog  LibreOffice            libreoffice-main     libreoffice
+prog  "LibreOffice Calc"     libreoffice-calc     libreoffice --calc
+prog  "LibreOffice Impress"  libreoffice-impress  libreoffice --impress
+prog  "LibreOffice Writer"   libreoffice-writer   libreoffice --writer

@@ -1,0 +1,38 @@
+# Task Bar
+ShowTaskBar=1
+TaskBarAtTop=0
+TaskBarAutoHide=0
+TaskBarFullscreenAutoShow=1
+
+TaskBarShowShowDesktopButton=1
+TaskBarShowWindowListMenu=0
+TaskBarShowWorkspaces=1
+TaskBarShowWindows=1
+
+TaskbarButtonWidthDivisor=10
+TaskBarGraphHeight=25
+TaskBarShowAllWindows=0
+TaskBarShowCPUStatus=0
+CPUStatusShowRamUsage=0
+CPUStatusShowSwapUsage=0
+CPUStatusShowCpuFreq=0
+
+TaskBarShowAPMStatus=0
+TaskBarShowAPMAuto=1
+TaskBarShowAPMGraph=0
+
+TaskBarShowMailboxStatus=0
+TaskBarShowTray=1
+TrayShowAllWindows=1
+TaskBarShowClock=1
+TimeFormat="%I:%M %p"
+DateFormat="%Y-%m-%d"
+
+
+# Menu
+AutoReloadMenus=1
+ShowSettingsMenu=0
+ShowThemesMenu=0
+ShowFocusMoedMenu=0
+ShowHelpMenu=0
+ShowWindowsList=0

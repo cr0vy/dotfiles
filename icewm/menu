@@ -1,13 +1,35 @@
-prog Firefox firefox firefox
-prog Terminal terminal xfce4-terminal
+prog      Firefox          firefox                            firefox
+prog      Terminal         terminal                           xfce4-terminal
 separator
-menufile Audio applications-accessories-symbolic menus/audio
-menufile Internet applications-internet-symbolic menus/internet
-menufile Office applications-office-symbolic menus/office
-menufile Programming applications-editors-symbolic menus/programming
-menufile "Sound & Video" applications-accessories-symbolic menus/sound_video
-menufile System applications-system-symbolic menus/system
-menufile Utilities applications-utilities-symbolic menus/utilities
-menufile Video applications-video-symbolic menus/video
+menu Audio folder {
+	prog    Audacious    audacious    audacious
+}
+menu Internet folder {
+	prog    Firefox    firefox    firefox
+}
+menu Office folder {
+	prog    LibreOffice              libreoffice-main       libreoffice
+	prog    "LibreOffice Calc"       libreoffice-calc       libreoffice --calc
+	prog    "LibreOffice Impress"    libreoffice-impress    libreoffice --impress
+	prog    "LibreOffice Writer"     libreoffice-writer     libreoffice --writer
+}
+menu Programming folder {
+	prog    Geany    geany    geany
+}
+menu Utilities folder {
+	prog    KeepassXC       keepassxc    keepassxc
+	prog    Nextcloud       Nextcloud    nextcloud
+	prog    Redshift-Gtk    redshift     redshift-gtk
+}
+menu System folder {
+	prog    thunar    org.xfce.thunar    thunar
+}
+menu Video folder {
+    prog    VLC    vlc    vlc
+}
 separator
-menufile Places folder menus/places
+menu Places folder {
+	prog    Home         user-home-symbolic          thunar
+	prog    Downloads    folder-download-symbolic    thunar Downloads
+	prog    Pictures     folder-pictures-symbolic    thunar Pictures
+}
